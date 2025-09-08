@@ -1,0 +1,26 @@
+### Register with the Test Server
+POST http://20.244.56.144/evaluation-service/register
+Content-Type: application/json
+
+{
+  "email": "nishantgenius03@gmail.com",
+  "name": "Nishant Srivastava",
+  "mobileNo": "8423233242",
+  "githubUsername": "nishanttcse",
+  "rollNo": "2201640100212",
+  "accessCode": "sAWTuR"
+}
+
+
+### Get Auth Token
+POST http://20.244.56.144/evaluation-service/auth
+Content-Type: application/json
+
+{
+  "email": "nishantgenius03@gmail.com",
+  "name": "Nishant Srivastava",
+  "rollNo": "2201640100212",
+  "accessCode": "sAWTuR",
+  "clientID": "",
+  "clientSecret": ""
+}
